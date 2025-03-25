@@ -72,7 +72,7 @@
 #include <stdio.h>
 #include <math.h>
 void yyerror(const char *s) {
-  fprintf(stderr, "Syntactical Error.\n");
+  printf(stderr, "Syntactical Error.\n");
   exit(1); 
 }
 int yylex();
