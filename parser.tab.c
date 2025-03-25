@@ -71,7 +71,7 @@
 
 #include <stdio.h>
 #include <math.h>
-void yyerror(const *) ;
+void yyerror(const char*) ;
 int yylex();
 extern int yylineno;
 
