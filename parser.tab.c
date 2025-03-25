@@ -71,7 +71,10 @@
 
 #include <stdio.h>
 #include <math.h>
-void yyerror(const char *);
+void yyerror(const char *s) {
+  fprintf(stderr, "Syntactical Error.\n");
+  exit(1); 
+}
 int yylex();
 extern int yylineno;
 
